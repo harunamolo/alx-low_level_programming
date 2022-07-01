@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <ctype.h>
-
 /**
  * main - program that prints the alphabet in lowercase, followed by a new line
  * You can only use the putchar
@@ -9,12 +8,12 @@
 
 int main(void)
 {
-int l = a;
-while (l <= z)
+int l = 'a';
+while (l <= 'z')
 {
 putchar(l);
 l += 1;
 }
-putchar(n);
+putchar('\n');
 return (0);
 }
